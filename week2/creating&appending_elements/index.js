@@ -19,4 +19,3 @@ newLI2.textContent = "more coffee"
 var newLI3 = document.createElement("li")
 newLI3.textContent = "even more coffee"
 document.getElementById("newOL").append(newLI1,newLI2,newLI3)
-
