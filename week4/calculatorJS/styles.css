@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 15px;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: orangered;
+    padding: 5px;
+}
+h2 {
+    text-align: center;
+    color: orangered;
+    margin: 0;
+}
+span {
+    color: orange;
+    font-size: 20px;
+}
+.calculatorBox {
+    border: 3px solid orange;
+    text-align: center;
+    padding: 10px;
+    margin: 15px auto;
+}
+.calculatorBox input {
+    background-color: black;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    width: 75px;
+}
+.calculatorBox button {
+    width: 90px;
+    font-size: 20px;
+}
+.calculatorBox label {
+    color: orange;
+    font-size: 20px;
+}
