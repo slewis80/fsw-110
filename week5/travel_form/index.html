@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Travel Form</title>
+</head>
+<body>
+    <h1>Cheap Travel Airlines</h1>
+    <p>Fill out the form below to book your flight.</p>
+    <form name="form">
+        First Name: <input type="text" name="firstName"/><br>
+        Last Name:  <input type="text" name="lastName"/><br>
+        Age:        <input type="number" min="18" name="age"/><br>
+        Number of Seats:<input type="number" name="seats"/><br>
+        Gender:   <br>
+        Male:  <input type="radio" name="gender" value="Male"/>
+        Female:<input type="radio" name="gender" value="Female"/><br>
+        Where are you flying to?<br>
+        <select name="city">
+            <option value="blank"></option>
+            <option value="Antarctica">Antarctica</option>
+            <option value="Austin, TX">Austin, TX</option>
+            <option value="BF Egypt">BF, Egypt</option>
+            <option value="Middle of Nowhere">Middle of Nowhere</option>
+        </select><br>
+        Dietary Restrictions:<br>
+        (Check all that apply)<br>
+        Vegetarian  <input type="checkbox" name="diet" value="Vegetarian"/>
+        Vegan       <input type="checkbox" name="diet" value="Vegan"/><br>
+        Lactose-Free<input type="checkbox" name="diet" value="Lactose-Free"/>
+        Gluten-Free <input type="checkbox" name="diet" value="Gluten-Free"/><br>
+        <button type="submit">Check for flights</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
