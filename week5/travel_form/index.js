@@ -34,5 +34,6 @@ function confirmation(event) {
     Gender: ${gender}
     City: ${city}
     Diet: ${dietInput}`);
+
 }
 
